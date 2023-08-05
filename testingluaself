@@ -95,7 +95,7 @@ do -- Client Functions
                     message.channel = {
                         id = message.channel_id
                     }
-                    function message.channel.send(content, tbl)
+                    function message.channel.send(content)
                         local t = {
                             content = content
                         }
